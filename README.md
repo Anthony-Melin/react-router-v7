@@ -129,3 +129,5 @@ npm run dev
 ```
 
 By the end, vite should start, display suspense at root url and error page for any other url.
+
+**Note**: It seems react-router creates some files (types) under .react-router folder and may be excluded in gitignore.
