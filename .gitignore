@@ -25,3 +25,4 @@ dist-ssr
 
 # exclude react-router generated files
 .react-router
+build
