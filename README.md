@@ -16,3 +16,4 @@ This project is based on vite 5.5.5 while 6.0.1 has been released because there 
 
     npm i react-router@7.0.1
     npm i react-router-dom@7.0.1
+    npm i @react-router/dev@7.0.1
