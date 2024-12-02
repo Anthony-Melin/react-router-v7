@@ -35,15 +35,14 @@ rm index.html
 
 4) Setup react-router in vite
 
-Add react-router plugin in vite.config.js
+Replace React by react-router plugin in vite.config.js
 ```
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 import { reactRouter } from "@react-router/dev/vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), reactRouter()],
+  plugins: [reactRouter()],
 })
 ```
 
@@ -134,3 +133,8 @@ npm run dev
 By the end, vite should start, display suspense at root url and error page for any other url.
 
 **Note**: It seems react-router creates some files (types) under .react-router folder and may be excluded in gitignore.
+
+## Links
+- Vite: https://vite.dev/guide/
+- React-router doc: https://reactrouter.com/start/framework/installation
+- React-router template: https://github.com/remix-run/react-router-templates/tree/main/default
