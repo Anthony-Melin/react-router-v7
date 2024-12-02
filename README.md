@@ -115,3 +115,17 @@ const App = () => (
 
 export default App
 ```
+
+5) Start vite with default pages
+
+Install @react-router/node
+```
+npm i @react-router/node@7.0.1
+```
+
+Then, start vite dev server as usual
+```
+npm run dev
+```
+
+By the end, vite should start, display suspense at root url and error page for any other url.
