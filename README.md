@@ -35,15 +35,14 @@ rm index.html
 
 4) Setup react-router in vite
 
-Add react-router plugin in vite.config.js
+Replace React by react-router plugin in vite.config.js
 ```
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
 import { reactRouter } from "@react-router/dev/vite"
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), reactRouter()],
+  plugins: [reactRouter()],
 })
 ```
 
